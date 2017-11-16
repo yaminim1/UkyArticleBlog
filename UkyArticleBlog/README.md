@@ -59,11 +59,11 @@ logging.level.org.springframework.security=DEBUG
 logging.level.com.uk=DEBUG
 ```
 The port on which the project runs is set to 8085.  
-The project is deployed http://localhost:8085/  
+The project is deployed http://localhost:8085/login
 The db details can be changed. spring.datasource.username, spring.datasource.password and the url need to be set according to the mysql setup.  
 
 #Application Demo:#   
-Go to the github path and download the zip file and import it as a maven project in your eclipse.  
+Go to the github path https://github.com/yaminim1/UkyArticleBlog.git and download the zip file and import it as a maven project in your eclipse.  
 Modify application.properties file with correct url, username, password for the MySQL database.  
 Create the required data and tables by running the commands present in tables.sql.  
 Right click on the project and go to maven->Update Project.  
